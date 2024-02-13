@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Js Variables</title>
+</head>
+<body> 
+   <script>
+    //Var keyword
+    var name="pinky"/*var keyword is the main keyword to declare a variable in js,it is a global scope variable we can re-declare and re-assign the same keyword*/
+    console.log(name)//console.log is used to identify the errors by using console.log we can't display on the browser the output will be displayed on the inspect-console
+    document.write(name)//document.write is used to display the output in browser and it is unable to detect the errors
+    name="kavya"
+    console.log(name)/*we can re-assign the same var keyboard many times within the same web page*/
+    var name="jagannadh"
+    console.log(name)/*we can re-declare the same var keyboard within the page many times*/
+
+    
+    //Let keyword
+    let rollnum=1234/*it is the new es6 version keyword,it is a locak block scope variable where we can access within the block of code.*/ 
+    console.log(rollnum)
+    rollnum=9876;//In "let keyboard" we can re-assign the values only within the block of code
+    //let rollnum=7893//in "let keyboard" we can not re-declare alreading existing same variable name with same keyword
+    //console.log(rollnum)
+    {
+        let college="acet"
+        console.log(college)
+    }
+
+    //const keyword
+    const college="acoe"
+    console.log(college)
+    college="acoe"//in const keyword we cant re-assign the same variable within the same code
+   // const college="aces"//in console output error will be showed
+   // console.log(college)//In const keyword we cant re-declare the same variable name and keyword within the same code
+   </script> 
+</body>
+</html>

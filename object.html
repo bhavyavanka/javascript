@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Object</title>
+</head>
+<body>
+    <h1>Javascript object</h1>
+    <hr>
+    <script>
+let users = {       //to declare an object we will use {}curly braces
+name:'sravani',
+id:'21404-ec-053',
+college:'ACOE'
+}
+console.log(users)
+console.log(users.id) //dot notation                       //if we want to print the object keyname dot notation and array notation will be used
+console.log(users['name'])//array notation
+users.name="udatha"//modifying the value of property
+console.log(users.name)
+users.age = 19 //adding new property to object
+console.log(users)
+delete users.age//deleting a property in object
+console.log(users)
+console.log('name' in users)//checking if a property exists or not i.e., true or false will be appear at console output
+console.log('age' in users)//checking if a property exists or not
+</script>
+</body>
+</html>
